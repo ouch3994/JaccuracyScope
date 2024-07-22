@@ -1,5 +1,4 @@
-# openBallistics
-An Open Source Ballistics Calculator 
+# Jaccuracy Scope
 
 
 Just getting my stuff together. Will be a while till a first developement progress. 

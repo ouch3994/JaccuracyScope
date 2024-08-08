@@ -1,0 +1,59 @@
+#!/bin/bash
+
+
+########################################################
+#  ______        _       ____    ____  ______        _       
+#.' ____ \      / \     |_   \  /   _||_   _ \      / \      
+#| (___ \_|    / _ \      |   \/   |    | |_) |    / _ \     
+# _.____`.    / ___ \     | |\  /| |    |  __'.   / ___ \    
+#| \____) | _/ /   \ \_  _| |_\/_| |_  _| |__) |_/ /   \ \_  
+# \______.'|____| |____||_____||_____||_______/|____| |____|
+#########################################################
+#WORKS?   samba share directory woo  
+
+samba_not_installed=$(dpkg -s samba 2>&1 | grep "not installed")
+if [ -n "$samba_not_installed" ];then
+  echo "Installing Samba"
+  sudo apt-get install samba -y
+  sudo apt-get install samba-common-bin
+fi
+
+
+mkdir /home/pi/share
+mkdir /home/pi/share/Display
+
+
+#if for configure share folder 
+#This will add these lines of code the configure script 
+if ! grep -q '\[ScopeShare\]' /etc/samba/smb.conf
+then 
+echo "
+[ScopeShare]
+path = /home/pi/share
+writeable=Yes
+create mask=0777
+directory mask=0777
+public=Yes
+force user =pi 
+force group =pi 
+" | sudo tee -a /etc/samba/smb.conf
+fi 
+
+#give permission lol 
+chmod -R 777 /home/pi/share
+
+
+echo "Enter the Same Password for your Pi here for permissions: "
+sudo smbpasswd -a pi
+
+
+#restart service after configure 
+sudo systemctl restart smbd
+
+
+# Message to the User
+ echo "Samba Sharing set up! Use a computer or Phone to access files"
+ echo "To access the shared machine, enter \\[your ip address]"
+
+
+#################### STOP HERE TO MAKE USER MOVE FILES OVER 

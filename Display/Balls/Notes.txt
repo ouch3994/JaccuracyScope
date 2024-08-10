@@ -1,0 +1,3 @@
+gcc -fPIC -shared -o GNUball3.so exportme3.c -lm
+
+to compile this 

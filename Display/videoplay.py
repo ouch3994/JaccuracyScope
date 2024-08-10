@@ -25,9 +25,9 @@ print("Booted")
 root = os.getcwd()
 
 # Defaults Params
-videoFile = "Easter240.mp4"
+#videoFile = "Easter240.mp4"
 #videoFile = "gametest60.mp4"
-#videoFile = "VIDEOscope.avi"
+videoFile = "VIDEOscope.avi"
 
 frame_step = 1
 

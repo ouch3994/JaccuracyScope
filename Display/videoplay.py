@@ -13,7 +13,7 @@ display._init()
 
 waittimer = 0.04
 dingus =1; 
-image=Image.open("jack.jpg")    
+image=Image.open("LoadingScreen2.jpg")    
 #first diplay, then DiplayFast after this 
 display.display(image, xs =0 ,xe =239 ,ys=0,ye=239)  
 #display.displayFast(img)

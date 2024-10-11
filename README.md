@@ -4,15 +4,9 @@
 Thank you for your interest in the Jaccuracy Scope Project!  There is a donation page link to the right if you support this project [Buy Me A Coffee Page](https://buymeacoffee.com/jaccuracyscope). 
 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HgzltnaVOiY?si=L6nHdwi97msg5Pw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
-The First Video Overview of the project: [Video Introduction](https://youtu.be/HgzltnaVOiY?si=L6nHdwi97msg5Pw5)
-Hackaday Article: [Hackaday](https://hackaday.io/project/193031-jaccuracy-scope)
-Element-14 Article: [Element-14](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/a-diy-pi-ballistic-smart-scope)
+The First Video Overview of the project: [Video Introduction](https://youtu.be/HgzltnaVOiY?si=L6nHdwi97msg5Pw5) 
+Hackaday Article: [Hackaday](https://hackaday.io/project/193031-jaccuracy-scope) 
+Element-14 Article: [Element-14](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/a-diy-pi-ballistic-smart-scope) 
 
 ![piscope](https://github.com/user-attachments/assets/f6926fb6-95f0-497f-baee-cb35fe6f75c5)
 

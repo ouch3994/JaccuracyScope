@@ -5,6 +5,9 @@ Thank you for your interest in the Jaccuracy Scope Project!  There is a donation
 
 [Video Introduction](https://youtu.be/HgzltnaVOiY?si=L6nHdwi97msg5Pw5)
 
+![piscope](https://github.com/user-attachments/assets/f6926fb6-95f0-497f-baee-cb35fe6f75c5)
+
+
 Seems that installing this on Pi 4B with Rasbian Bullseye(64-bit) is the best option for FPS speed. Please bulid this with the Pi 4B option, further developement is needed for good FPS with the new Pi 5 (the SPI bus is slower). 
 So please avoid the Pi5 and Bookworm for this project... 
 
@@ -20,3 +23,12 @@ At the time of writing this, I have hope for the community of long range shootin
 -A physical build kit inlcuding a harness for easy building!  (I don’t even know how to start with that…).
 
 ![jaccuracyPinoutDoc](https://github.com/user-attachments/assets/4a2a566b-5c7c-425c-a14a-ba66a5440d98)
+
+
+
+# Example Images
+![Z_testImage271691202858 2353685](https://github.com/user-attachments/assets/8ea5a688-8321-4bd6-b4a4-8bdf02f1c21b)
+![Z_testImage271691202865 5513597](https://github.com/user-attachments/assets/f9413376-f0d3-4573-8bb3-f28f060447b2)
+![Z_testImage271691202868 0333173](https://github.com/user-attachments/assets/3709839b-ee0d-4b56-a6c4-71a1fe163fb3)
+![Z_testImage271691202873 1352634](https://github.com/user-attachments/assets/786ea88e-12ee-451f-9093-233692934cfd)
+![Z_testImage271691203231 064795](https://github.com/user-attachments/assets/70e4516e-2513-469e-a9b5-6ffc52dad7d1)
